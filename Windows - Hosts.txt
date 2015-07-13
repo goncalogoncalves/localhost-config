@@ -1,0 +1,11 @@
+Path:
+C:\Windows\System32\drivers\etc
+
+File:
+hosts
+
+Note:
+Change file with admin privileges
+
+Content:
+127.0.0.1       www.test.dev

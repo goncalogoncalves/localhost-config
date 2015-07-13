@@ -1,0 +1,32 @@
+Path:
+C:\wamp\bin\apache\apache2.4.9\conf\extra\
+
+File:
+httpd-vhosts.conf
+
+Content:
+<VirtualHost 127.0.0.1>
+    ServerName   test.dev
+    ServerAlias www.test.dev
+    DocumentRoot c:/wamp/www/test/public
+
+    <Directory c:/wamp/www/test/public>
+        Options Indexes FollowSymLinks
+        AllowOverride all
+        # onlineoffline tag - don't remove
+        Order Deny,Allow
+        Deny from all
+        Allow from 127.0.0.1
+    </Directory>
+
+    RewriteEngine off
+
+    <Location />
+        RewriteEngine On
+        RewriteCond %{REQUEST_FILENAME} -s [OR]
+        RewriteCond %{REQUEST_FILENAME} -l [OR]
+        RewriteCond %{REQUEST_FILENAME} -d
+        RewriteRule ^.*$ - [NC,L]
+        RewriteRule ^.*$ /index.php [NC,L]
+    </Location>
+</VirtualHost>
