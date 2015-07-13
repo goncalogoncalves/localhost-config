@@ -4,6 +4,13 @@ C:\wamp\bin\apache\apache2.4.9\conf\extra\
 File:
 httpd-vhosts.conf
 
+Note:
+Enable file in
+C:\wamp\bin\apache\Apache2.4.4\conf\httpd.conf
+# Virtual hosts
+Include conf/extra/httpd-vhosts.conf
+LoadModule rewrite_module modules/mod_rewrite.so
+
 Content:
 <VirtualHost 127.0.0.1>
     ServerName   test.dev

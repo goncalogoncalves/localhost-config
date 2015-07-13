@@ -1,0 +1,17 @@
+Path:
+Root of project
+
+File:
+.htaccess
+
+Note:
+Redirect to public folder on production server
+
+Content:
+
+RewriteEngine On
+RewriteRule ^projectxpto/(.*)$ /projectxpto/public/$1 [R=301,NC,L]
+RewriteBase /
+RewriteCond %{THE_REQUEST} /public/([^\s?]*) [NC]
+RewriteRule ^ %1 [L,NE,R=302]
+RewriteRule ^((?!public/).*)$ public/$1 [L,NC]
