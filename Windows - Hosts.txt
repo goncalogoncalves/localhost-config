@@ -9,3 +9,4 @@ Change file with admin privileges
 
 Content:
 127.0.0.1       www.test.dev
+
