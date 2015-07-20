@@ -6,4 +6,6 @@
 + htaccess
 + Sublime text user config
 + Windows - hosts
-+ Atom
++ Atom user config
+
+#### Programs used everyday
