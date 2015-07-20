@@ -8,4 +8,13 @@
 + Windows - hosts
 + Atom user config
 
-#### Programs used everyday
+#### Programs that I use everyday
+
++ [Atom](https://atom.io/)
++ [Firefox Developer Edition](https://www.mozilla.org/pt-PT/firefox/developer/)
++ [Sublime text](http://www.sublimetext.com/)
++ [PhpStorm](https://www.jetbrains.com/phpstorm/)
++ [FileZilla](https://filezilla-project.org/)
++ [HeidiSql](http://www.heidisql.com/)
++ [Wamp](http://www.wampserver.com/en/)
++ [SmartGit]http://www.syntevo.com/smartgit/)
