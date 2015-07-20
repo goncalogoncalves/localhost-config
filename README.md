@@ -6,3 +6,4 @@
 + htaccess
 + Sublime text user config
 + Windows - hosts
++ Atom
