@@ -2,4 +2,4 @@ Pachage:
 https://atom.io/packages/sync-settings
 
 Gist:
-https://gist.github.com/goncalogoncalves/df2d19daae84dbab28f6
+https://gist.github.com/goncalogoncalves/8761e452b3773cc676ffa924b6c40969

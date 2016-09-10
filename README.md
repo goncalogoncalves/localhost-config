@@ -17,4 +17,5 @@
 + [FileZilla](https://filezilla-project.org/)
 + [HeidiSql](http://www.heidisql.com/)
 + [Wamp](http://www.wampserver.com/en/)
++ [GitKraken](https://www.gitkraken.com/)
 + [SmartGit](http://www.syntevo.com/smartgit/)
